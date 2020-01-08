@@ -1,0 +1,14 @@
+{
+  "languageserver": {
+    "haskell": {
+      "command": "ghcide",
+      "args": [ "--lsp" ],
+      "rootPatterns": [".stack.yaml", "cabal.config", "package.yaml"],
+      "filetypes": ["hs", "lhs", "haskell"]
+    }
+  },
+  "coc.preferences.jumpCommand": "vsplit",
+  "metals.serverProperties": ["-Dmetals.http=true"]
+  //"coc.preferences.formatOnType": true,
+  //"coc.preferences.formatOnSaveFiletypes": ["scala"]
+}
